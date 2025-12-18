@@ -8,6 +8,7 @@ import {
 import CountUp from "react-countup";
 import { CircleCheck } from "lucide-react";
 import Featuredproperty from "./Featuredproperty";
+import { Link } from "react-router-dom";
 
 function Premiumestate() {
   return (
@@ -84,15 +85,15 @@ function Premiumestate() {
           </div>
 
           <div className="lg:flex flex-row mt-10 gap-8 hidden">
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="px-4 py-3 bg-teal-700 inline-flex text-white rounded-full items-center flex-row gap-1 text-sm font-semibold group transition-transform hover:translate-y-1 ease-in-out duration-300 hover:shadow hover:shadow-teal-400"
             >
               <span>Learn More About Us</span>
               <span className="transition-transform group-hover:translate-x-1 ease-in-out duration-300">
                 <BsArrowRightCircle className="text-white h-4 w-6" />
               </span>
-            </a>
+            </Link>
             <div className="flex flex-row gap-3 items-center">
               <span className="p-2 bg-teal-100 rounded-full">
                 <BsHeadset className="text-teal-700 h-5 w-6" />

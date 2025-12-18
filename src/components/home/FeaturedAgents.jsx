@@ -6,6 +6,7 @@ import {
   BsWhatsapp,
 } from "react-icons/bs";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 function FeaturedAgents() {
   return (
@@ -100,12 +101,12 @@ function FeaturedAgents() {
             </div>
 
             <div className="w-full mt-8 px-8 ">
-              <a
-                href="/agentsdetail"
+              <Link
+                to="/agentsdetail"
                 className="w-full block bg-teal-700 text-white font-bold rounded-lg py-3 text-xs text-center hover:-translate-y-1 transition-all"
               >
                 View Full Profile
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -178,12 +179,12 @@ function FeaturedAgents() {
             </div>
 
             <div className="w-full mt-8 px-8 ">
-              <a
-                href="/agentsdetail"
+              <Link
+                to="/agentsdetail"
                 className="w-full block bg-teal-700 text-white font-bold rounded-lg py-3 text-xs text-center hover:-translate-y-1 transition-all"
               >
                 View Full Profile
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -256,20 +257,20 @@ function FeaturedAgents() {
             </div>
 
             <div className="w-full mt-8 px-8 ">
-              <a
-                href="/agentsdetail"
+              <Link
+                to="/agentsdetail"
                 className="w-full block bg-teal-700 text-white font-bold rounded-lg py-3 text-xs text-center hover:-translate-y-1 transition-all"
               >
                 View Full Profile
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
       <div className="flex justify-center mt-12" data-aos="fade-up" data-aos-delay="400">
-        <a
-          href="/agents"
+        <Link
+          to="/agents"
           className="relative inline-block px-6 py-3 font-bold text-teal-700 rounded-full overflow-hidden group border border-teal-700 justify-center "
         >
           {/* Background */}
@@ -282,7 +283,7 @@ function FeaturedAgents() {
               <CircleArrowRight size={18} />
             </span>
           </span>
-        </a>
+        </Link>
       </div>
     </div>
   );

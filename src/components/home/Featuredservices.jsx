@@ -2,6 +2,7 @@ import { ArrowRight, Check } from "lucide-react";
 import React from "react";
 import { BsGraphUp, BsKey, BsSearch, BsShieldCheck } from "react-icons/bs";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 function Featuredservices() {
   return (
@@ -84,13 +85,13 @@ function Featuredservices() {
 
               {/* BUTTON */}
               <div className="w-full flex justify-center mt-6">
-                <a
-                  href="/servicedetails"
+                <Link
+                  to="/servicedetails"
                   className="flex flex-row gap-2 border border-teal-700 text-teal-700 font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-teal-700 hover:text-white hover:scale-x-105"
                 >
                   <span>Explore More</span>
                   <ArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -150,13 +151,13 @@ function Featuredservices() {
 
               {/* BUTTON */}
               <div className="w-full flex justify-center mt-6">
-                <a
-                  href="/servicedetails"
+                <Link
+                 to="/servicedetails"
                   className="flex flex-row gap-2 bg-teal-600 text-white font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-white hover:text-teal-700 hover:scale-x-105 hover:border hover:border-teal-700"
                 >
                   <span>Get Analysis</span>
                   <ArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -216,13 +217,13 @@ function Featuredservices() {
 
               {/* BUTTON */}
               <div className="w-full flex justify-center mt-6">
-                <a
-                  href="/servicedetails"
+                <Link
+                  to="/servicedetails"
                   className="flex flex-row gap-2 border border-teal-700 text-teal-700 font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-teal-700 hover:text-white hover:scale-x-105"
                 >
                   <span>Manage Now</span>
                   <ArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -282,21 +283,21 @@ function Featuredservices() {
 
               {/* BUTTON */}
               <div className="w-full flex justify-center mt-6">
-                <a
-                  href="/servicedetails"
+                <Link
+                  to="/servicedetails"
                   className="flex flex-row gap-2 border border-teal-700 text-teal-700 font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-teal-700 hover:text-white hover:scale-x-105"
                 >
                   <span>Learn More</span>
                   <ArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
 
         <div className="flex justify-center mt-12" data-aos="fade-up" data-aos-delay="600">
-          <a
-          href="/services"
+          <Link
+          to="/services"
           className="relative inline-block px-6 py-3 font-bold text-teal-700 rounded-full overflow-hidden group border border-teal-700 justify-center "
         >
           {/* Background */}
@@ -312,7 +313,7 @@ function Featuredservices() {
               />
             </span>
           </span>
-        </a>
+        </Link>
         </div>
       </div>
     </div>

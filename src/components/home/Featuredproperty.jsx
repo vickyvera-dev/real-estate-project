@@ -11,6 +11,7 @@ import {
   BsRulers,
   BsStarFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Featuredproperty() {
   return (
@@ -37,13 +38,13 @@ function Featuredproperty() {
           <div className="md:col-span-2 shadow-lg bg-white rounded-2xl flex flex-col h-full transition-all ease-in-out duration-300 hover:-translate-y-1">
             {/* Image */}
             <div className="overflow-hidden rounded-t-2xl w-full relative">
-              <a href="/propertiesdetail">
+              <Link to="/propertiesdetail">
                 <img
                   src="/images/property-exterior-6.webp"
                   alt="Featured Property"
                   className="object-cover w-full h-98 rounded-t-2xl transition-transform duration-500 hover:scale-105"
                 />
-              </a>
+              </Link>
               {/* Featured + Premium tags */}
               <div className="absolute left-4 top-4 flex gap-2">
                 <span className="bg-teal-700 text-white font-extrabold rounded-full py-1 px-3 text-xs">
@@ -94,12 +95,12 @@ function Featuredproperty() {
               <div className="w-full flex flex-col lg:flex-row gap-2 lg:items-center justify-between pb-3 mt-4">
                 <div className="flex flex-wrap gap-2">
                   <div className="flex flex-col lg:flex-row gap-2 lg:items-center w-full">
-                    <a href="/propertiesdetail" className="rounded-full bg-teal-700 text-white font-bold py-2 px-6 hover:-translate-y-1 transition-all">
+                    <Link to="/propertiesdetail" className="rounded-full bg-teal-700 text-white font-bold py-2 px-6 hover:-translate-y-1 transition-all">
                       ARRANGE VISIT
-                    </a>
-                    <a href="/propertiesdetail" className="rounded-full text-teal-700 bg-white font-bold py-2 px-6 border border-teal-700 hover:bg-teal-100 hover:-translate-y-1 transition-all">
+                    </Link>
+                    <Link to="/propertiesdetail" className="rounded-full text-teal-700 bg-white font-bold py-2 px-6 border border-teal-700 hover:bg-teal-100 hover:-translate-y-1 transition-all">
                       MORE PHOTOS
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="flex gap-2 items-center text-sm">
@@ -116,7 +117,7 @@ function Featuredproperty() {
           <div className="md:col-span-1 w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 md:grid-cols-1 gap-6 w-full h-full">
             {/* Card 1 */}           
-            <a href="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
+            <Link to="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
               <div className="relative">
                 <div className="absolute top-2 left-2 bg-gray-600 text-white text-xs font-bold rounded-full py-1 px-2 flex-row flex items-center gap-2">
                   <BsLightningChargeFill
@@ -158,18 +159,18 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                     $689,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="bg-teal-700 text-white font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     DETAILS
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
+            </Link>
 
             {/* Card 2 */}           
-            <a href="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
+            <Link to="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
               <div className="relative">
                 <div className="absolute top-2 left-2 bg-green-700 text-white text-xs font-bold rounded-full py-1 px-2 flex-row flex items-center gap-2">
                   <BsStarFill size={12} className="fill-white text-white" />
@@ -210,18 +211,18 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                     $545,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="bg-teal-700 text-white font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     DETAILS
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
+            </Link>
 
             {/* Card 3 */}            
-            <a href="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
+            <Link to="/propertiesdetail" className="bg-white shadow-md rounded-2xl flex flex-row overflow-hidden h-full gap-3">
               <div className="relative">
                 <div className="absolute top-2 left-2 bg-teal-700 text-white  font-bold rounded-full py-1 px-2 flex-row flex items-center gap-2">
                   <BsGem size={12} className="fill-white text-white" />
@@ -260,15 +261,15 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                     $1,290,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="bg-teal-700 text-white font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     DETAILS
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           </div>
         </div>
@@ -311,12 +312,12 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                     $1,025,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="border-teal-700 border text-teal-700 font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     VIEW
-                  </a>
+                  </Link>
                 </div>
               </div>              
           </div>
@@ -358,12 +359,12 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                    $429,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="border-teal-700 border text-teal-700 font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     VIEW
-                  </a>
+                  </Link>
                 </div>
               </div>                
           </div>
@@ -405,12 +406,12 @@ function Featuredproperty() {
                   <span className="font-bold text-gray-700 text-lg">
                     $512,000
                   </span>
-                  <a
-                    href="/propertiesdetail"
+                  <Link
+                    to="/propertiesdetail"
                     className="border-teal-700 border text-teal-700 font-bold rounded-full py-2 px-3 text-xs hover:-translate-y-1 transition-all"
                   >
                     VIEW
-                  </a>
+                  </Link>
                 </div>
               </div>              
           </div>

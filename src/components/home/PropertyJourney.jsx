@@ -3,6 +3,7 @@ import React from "react";
 import CountUp from "react-countup";
 import { BsFillHouseHeartFill, BsGem, BsTrophyFill,  } from "react-icons/bs";
 import { BiSolidUserDetail } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function PropertyJourney() {
   return (
@@ -63,25 +64,25 @@ function PropertyJourney() {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-16">
           
           {/* Get Free Consultations */}
-          <a
-            href="/contacts" 
+          <Link
+            to="/contacts" 
             className="w-full sm:w-auto py-4 px-6 bg-teal-600 text-white rounded-lg font-bold 
             flex justify-center items-center gap-2 transition-all hover:-translate-y-1"
           >
             <BiSolidUserDetail size={22} />
             <span className="text-sm sm:text-base">Get Free Consultations</span>
-          </a>
+          </Link>
 
           {/* Call Button */}
-          <a
-            href="/contacts" 
+          <Link
+            to="/contacts" 
             className="w-full sm:w-auto py-4 px-6 border border-teal-600 text-teal-600 bg-white rounded-lg font-bold 
             flex justify-center items-center gap-2 transition-all hover:-translate-y-1
             group"
           >
             <Phone className="text-teal-600 group-hover:fill-teal-600 transition" />
             <span className="text-sm sm:text-base">Call (555) 123-4567</span>
-          </a>
+          </Link>
 
         </div>
       </div>

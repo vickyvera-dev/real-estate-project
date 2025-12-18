@@ -1,6 +1,7 @@
 import { ArrowRight, MapPin } from "lucide-react";
 import React from "react";
 import { BsAspectRatio, BsDoorOpen, BsDroplet } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function RecentBlog() {
   return (
@@ -41,20 +42,20 @@ function RecentBlog() {
               />
             </div>
 
-            <a href="/blogdetail"  className="mt-6 mx-4">
+            <Link to="/blogdetail"  className="mt-6 mx-4">
               <h3 className="text-xl hover:text-teal-600 transition-colors duration-300 font-semibold tracking-wide">
                 Eum ad dolor et. Autem aut fugiat debitis
               </h3>
 
-              <a href="/blogdetail" className="flex flex-row gap-1 items-center mt-4">
+              <Link to="/blogdetail" className="flex flex-row gap-1 items-center mt-4">
                 <span className="text-teal-600 underline text-sm">
                   READ MORE
                 </span>
                 <span className="text-teal-600">
                   <ArrowRight size={15} />
                 </span>
-              </a>
-            </a>
+              </Link>
+            </Link>
           </div>
 
           {/*card2*/}
@@ -71,20 +72,20 @@ function RecentBlog() {
               />
             </div>
 
-            <a href="/blogdetail"  className="mt-6 mx-4">
+            <Link to="/blogdetail"  className="mt-6 mx-4">
               <h3 className="text-xl hover:text-teal-600 transition-colors duration-300 font-semibold tracking-wide">
                 Eum ad dolor et. Autem aut fugiat debitis
               </h3>
 
-              <a href="/blogdetail"  className="flex flex-row gap-1 items-center mt-4">
+              <Link to="/blogdetail"  className="flex flex-row gap-1 items-center mt-4">
                 <span className="text-teal-600 underline text-sm">
                   READ MORE
                 </span>
                 <span className="text-teal-600">
                   <ArrowRight size={15} />
                 </span>
-              </a>
-            </a>
+              </Link>
+            </Link>
           </div>
 
           {/*card3*/}
@@ -101,20 +102,20 @@ function RecentBlog() {
               />
             </div>
 
-            <a href="/blogdetail"  className="mt-6 mx-4">
+            <Link to="/blogdetail"  className="mt-6 mx-4">
               <h3 className="text-xl hover:text-teal-600 transition-colors duration-300 font-semibold tracking-wide">
                 Et repellendus molestiae qui est sed omnis
               </h3>
 
-              <a href="/blogdetail"  className="flex flex-row gap-1 items-center mt-4">
+              <Link to="/blogdetail"  className="flex flex-row gap-1 items-center mt-4">
                 <span className="text-teal-600 underline text-sm">
                   READ MORE
                 </span>
                 <span className="text-teal-600">
                   <ArrowRight size={15} />
                 </span>
-              </a>
-            </a>
+              </Link>
+            </Link>
           </div>
         </div>
       </div>

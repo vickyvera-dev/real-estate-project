@@ -563,7 +563,7 @@ export default function Agentsdetailsctn() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="flex items-center gap-4 p-5 bg-teal-50 transition-all duration-300 ease-in-out hover:shadow-2xl hover:scale-105 rounded-2xl shadow-sm">
                 <div className="text-white bg-teal-800 rounded-lg p-4 text-2xl">
                   <BsHouseDoorFill size={26} />

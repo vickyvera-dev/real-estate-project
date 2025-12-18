@@ -15,6 +15,7 @@ import {
   BsShieldFillCheck,
 } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function Whyus() {
   useEffect(() => {
@@ -243,22 +244,22 @@ function Whyus() {
               <div className="flex flex-col sm:flex-row lg:gap-4 md:gap-4 sm:gap-16 mt-16 w-full">
                 {/* Button 1 */}
                 <div className="transition-all ease-in-out duration-300 hover:-translate-y-1 w-full sm:w-auto mb-4 lg:mb-0">
-                  <a
-                    href="/properties" 
+                  <Link
+                    to="/properties" 
                     className="py-4 px-8 bg-teal-600 text-white rounded-lg font-bold w-full block text-center"
                   >
                     Explore Properties
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Button 2 */}
                 <div className="transition-all ease-in-out duration-300 hover:-translate-y-1 w-full sm:w-auto">
-                  <a
-                    href="/contacts"
+                  <Link
+                    to="/contacts"
                     className="py-4 px-8 border-teal-600 border text-teal-600 bg-white rounded-lg font-bold transition-all ease-in-out duration-300 hover:bg-teal-600 hover:text-white w-full block text-center"
                   >
                     Schedule Consultation
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -84,7 +84,7 @@ function Navbar() {
             <button className=" rounded-b ">
               <a
                 href="#"
-                className="hover:text-teal-600 flex items-center gap-1"
+                className="hover:text-teal-600 flex flex-row items-center gap-1"
               >
                 More Pages <CgChevronDown size={20} />
               </a>
